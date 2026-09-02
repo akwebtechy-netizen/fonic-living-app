@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Gold Diamond Shield Frame -->
+    <path
+        android:pathData="M54,22 L82,50 L54,78 L26,50 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#D4AF37"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Gold Diamond Frame -->
+    <path
+        android:pathData="M54,27 L77,50 L54,73 L31,50 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FFE89E"
+        android:fillColor="#00000000" />
+
+    <!-- Crown Top / Headboard Arch Motif -->
+    <path
+        android:pathData="M54,34 C56.5,34 58,36 58,38 C58,40 56,41 54,41 C52,41 50,40 50,38 C50,36 51.5,34 54,34 Z
+                         M44,38 C45.5,38 46.5,39 46.5,40.5 C46.5,42 45,43 43.5,43 C42,43 41,42 41,40.5 C41,39 42.5,38 44,38 Z
+                         M64,38 C65.5,38 67,39 67,40.5 C67,42 66,43 64.5,43 C63,43 61.5,42 61.5,40.5 C61.5,39 62.5,38 64,38 Z"
+        android:fillColor="#FFE89E" />
+
+    <!-- Bespoke Monogram "F" & "L" / Carved Chair Back Motif -->
+    <path
+        android:pathData="M43,44 L65,44 C67,44 68,45.5 68,47 L68,48 C68,49.5 67,51 65,51 L53,51 L53,57 L63,57 C64.5,57 65.5,58 65.5,59.5 C65.5,61 64.5,62 63,62 L53,62 L53,68 C53,69.5 51.5,70.5 50,70.5 C48.5,70.5 47,69.5 47,68 L47,48 C47,45.8 48.8,44 51,44 Z"
+        android:fillColor="#D4AF37" />
+
+    <!-- Bottom Pedestal Base / Wood Crafting Carve Line -->
+    <path
+        android:pathData="M39,72 L69,72"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFE89E"
+        android:fillColor="#00000000" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Fonic Living",
+  "description": "Bespoke handcrafted wooden luxury furniture app with premium catalog, wood specs, customization guides, and direct WhatsApp quote inquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
