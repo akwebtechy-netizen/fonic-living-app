@@ -18,6 +18,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Create Debug Keystore & Mock Google Services
+        run: |
+          keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          mkdir -p app
+          echo '{"project_info":{"project_number":"123","project_id":"fonic-living"},"client":[{"client_info":{"mobilesdk_app_id":"1:123:android:123","android_client_info":{"package_name":"com.fonicliving.app"}}}]}' > app/google-services.json
+
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
